@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+
+}
+.nav-container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-container p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.logo-g{
+    color: rgb(184, 72, 109);
+}
+.logo-container img{
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+    
+}
+.logo-container p{
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 300;
+}
+.menu-container{
+    padding: 0 20px;
+}
+.menu-container ul{
+display: flex;
+width: 100%;
+justify-content: center;
+list-style: none;
+}
+.menu-container a{
+    text-decoration: none;
+}
+.menu-container li{
+    margin-right: 20px;
+    font-size: 16px;
+    align-items: center;
+}
+.menu-follow{
+    /* background-color: lightgrey; */
+    display: flex;
+    /* align-items: center; */
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+}
+.image-ytu{
+    width: 30px;
+    
+}
+.image-tik{
+    width: 22px;
+    
+}
+.banner-container{
+    
+    background-color: rgb(248, 245, 241);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    padding: 100px;
+}
+
+.banner-text li{
+    list-style: none;
+}
+.banner-head{
+    color: #F948B2;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0px;
+}
+.banner-text h3{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.banner-button{
+   margin-top: 10px;
+   
+}
+.btn-sign{
+    width: 70px;
+    height: 30px;
+    border-radius: 20%/40%;
+    font-size: 12px;
+    border: none;
+    background-color: hsl(315, 90%, 53%);
+}
+.btn-rogu{
+    width: 70px;
+    height: 30px;
+    border-radius: 20%/40%;
+    font-size: 12px;
+    padding: 0px;
+    border: none;
+    background-color: rgb(98, 183, 231);
+    
+}
+.banner-image{
+    /* width: 50px; */
+    height: auto;
+    margin: auto;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    /* background-color: aquamarine; */
+}
+.card > img{
+    width: 100%;
+}
+.card>p{
+    text-align: center;
+    margin: 0px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.online-funn{
+    text-align: center;
+}
+.funny-heading{
+    margin: 0px;
+}
+.funn-video{
+    color: #F948B2;
+}
