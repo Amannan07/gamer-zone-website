@@ -194,17 +194,17 @@ font-size: 12px;
     width: 100%;
 }
 .games-list{
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 7px;
+    gap: 5px;
 }
 .box{
-    width: 200px;
-    height: 70px;
+    width: 210px;
+    height: 80px;
     border: 1px solid white;
     display: flex;
     align-items: center;
@@ -267,4 +267,40 @@ font-size: 12px;
     text-align: center;
     background-color: #0B0223;
     color: white;
+}
+
+
+
+/* responsiveness */
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .logo-container img{
+       margin-right: 0px;
+    }
+       .menu-container{
+        flex-direction: column;
+       }
+    
+}
+@media screen and (max-width:576px) {
+    .banner-container{
+        flex-direction: column;
+        .banner-content{
+            padding: 0px;
+        }
+        .cards{
+            display: block;
+            flex-direction: column;
+        }
+    }
+    .banner-content{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .online-funn{
+        flex-direction: column;
+    }
+    
 }
